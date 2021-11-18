@@ -42,7 +42,7 @@ const Menu = ({ username }: MenuProps) => {
           {!!username && (
             <>
               <S.MenuLink href="#">My account</S.MenuLink>
-              <S.MenuLink href="#">Whishlist</S.MenuLink>
+              <S.MenuLink href="#">Wishlist</S.MenuLink>
             </>
           )}
         </S.MenuNav>
