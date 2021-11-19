@@ -45,6 +45,7 @@ export const Wrapper = styled.button<WrapperProps>`
     justify-content: center;
     background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
     color: ${theme.colors.white};
+    font-family: ${theme.font.family};
     cursor: pointer;
     border: none;
     border-radius: ${theme.border.radius};
